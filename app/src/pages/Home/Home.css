@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Cute+Font&display=swap");
+
+.main {
+  position: relative;
+}
+.page1 {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  color: #eeeeee;
+  background-color: #000000;
+}
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 11vh;
+  color: #faf6f0;
+  border-bottom: 0.4px solid rgb(63 63 70);
+  background-color: #18181b66;
+  backdrop-filter: blur(24px) saturate(1.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav .nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw 3vw;
+  gap: 0.5vw;
+}
+.nav .nav-left img {
+  width: 20px;
+  height: 20px;
+}
+.nav .nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  padding: 3vw 3vw;
+}
+.nav .nav-right .button {
+  background-color: #ff4d00;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6vw 1vw;
+  width: 8vw;
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav .nav-right .button:hover {
+  background-color: rgba(255, 255, 255, 0.145);
+  color: #ff4d00;
+  transition: 0.4s all ease;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vw;
+  padding: 10vw 5vw;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.center h1::selection,
+p::selection {
+  background-color: #ff4d00;
+  color: #eeeeee;
+}
+.center h1 {
+  font-size: 5vw;
+}
+.center p {
+  font-size: 1.8vw;
+  text-align: center;
+  line-height: 2vw;
+  padding: 2vw 2vw;
+  color: #5a5a5a;
+}
+.center button {
+  background-color: #ff4d00;
+  border: none;
+  border-radius: 40px;
+  padding: 1vw 1vw;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.center button:hover {
+  background-color: rgba(255, 255, 255, 0.145);
+  color: #ff4d00;
+  transition: 0.4s all ease;
+}
