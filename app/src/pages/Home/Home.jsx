@@ -8,11 +8,25 @@ function Home() {
         <div className="nav">
           <div className="nav-left">
             <img src="/icon.png" alt=" Logo" />
-            <h1>Chat</h1>
+            <h1>HolaChat</h1>
           </div>
           <div className="nav-right">
-            <button className="button">Contact</button>
-            <button className="button">Login</button>
+            <button
+              className="button"
+              onClick={() => {
+                window.location.href = "https://github.com/Harmfulllll";
+              }}
+            >
+              Contact
+            </button>
+            <button
+              className="button"
+              onClick={() => {
+                window.location.href = "/login";
+              }}
+            >
+              Login
+            </button>
           </div>
         </div>
         <div className="center">
@@ -21,7 +35,14 @@ function Home() {
             <br /> anywhere
           </h1>
           <p>Your favourite chat app's favourite chat app</p>
-          <button className="button">Get Started</button>
+          <button
+            className="button"
+            onClick={() => {
+              window.location.href = "/register";
+            }}
+          >
+            Get Started
+          </button>
         </div>
       </div>
     </div>

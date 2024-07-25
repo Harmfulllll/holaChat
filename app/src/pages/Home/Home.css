@@ -56,11 +56,13 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .nav .nav-right .button:hover {
   background-color: rgba(255, 255, 255, 0.145);
   color: #ff4d00;
   transition: 0.4s all ease;
 }
+
 .center {
   display: flex;
   justify-content: center;
